@@ -1,0 +1,1196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Sans-serif;
+    background: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Headline */
+
+header {
+    width: 100%;
+    max-width: 1366px;
+    height: 654px;
+    max-height: 654px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+}
+
+.nav-lp {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.nav-lp h3 {
+    font-family: 'Montserrat Thin', Sans-serif;
+    font-size: 18px;
+    color: black;
+    padding: 0 10px;
+}
+
+.nav-lp span {
+    font-family: 'Montserrat SemiBold', Sans-serif;
+    font-size: 18px;
+}
+
+.nav-lp a {
+    color: black;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.headline-lp {
+    width: 100%;
+    max-width: 1366px;
+    background-image: url(../img/bg-home-fix.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+
+.headline-lp img {
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+}
+
+.headline-lp h1 {
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black
+}
+
+.headline-lp h3 {
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+    text-align: left;
+    font-family: 'Montserrat Thin', Sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.btn {
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 12px 50px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-family: 'Montserrat SemiBold', Sans-serif;
+    font-size: 14px;
+}
+
+.btn:hover {
+    opacity: 80%;
+    background: black;
+    color: white;
+}
+
+/* Headline */
+
+/* Message */
+.message-lp {
+    width: 100%;
+    max-width: 1366px;
+    background-color: white;
+    color: black;
+    margin: auto;
+}
+
+.message-lp .m-box {
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.message-lp .m-box p {
+    font-family: 'Piazzolla', serif;
+    font-size: 28px;
+    padding: 85px;
+    text-align: center;
+}
+
+/* Message */
+
+/* Promo Ortho */
+.promo-ortho {
+    width: 100%;
+    max-width: 1366px;
+    height: 1268px;
+    max-height: 1268px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(2, max-content 1fr);
+    justify-content: center;
+    margin: auto;
+}
+
+.promo-ortho .ortho {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 20px;
+    margin-bottom: 10px;
+}
+
+.promo-ortho .ortho .promo {
+    display: flex;
+    justify-content: center;
+}
+
+.promo-ortho .ortho .edu {
+    display: grid;
+    grid-template-row: repeat(3, max-content);
+    row-gap: 7.5px;
+}
+
+.promo-ortho .booking {
+    margin: auto;
+}
+
+.promo-ortho .booking .btn-order {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 15px 150px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-family: 'Montserrat SemiBold', Sans-serif;
+    font-size: 14px;
+}
+
+/* Promo Ortho */
+
+/* Promo White */
+.promo-white {
+    width: 100%;
+    max-width: 1366px;
+    height: 1268px;
+    max-height: 1268px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(2, max-content 1fr);
+    justify-content: center;
+    margin: auto;
+}
+
+.promo-white .white {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 20px;
+    margin-bottom: 10px;
+}
+
+.promo-white .white .promo {
+    display: flex;
+    justify-content: center;
+}
+
+.promo-white .white .edu {
+    display: grid;
+    grid-template-row: repeat(3, max-content);
+    row-gap: 22.5px;
+}
+
+.promo-white .booking {
+    margin: auto;
+}
+
+.promo-white .booking .btn-order {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 15px 150px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-family: 'Montserrat SemiBold', Sans-serif;
+    font-size: 14px;
+}
+
+.btn-order:hover {
+    opacity: 80%;
+    background: white;
+    color: black;
+}
+
+/* Promo White */
+
+/* Services */
+.services-lp {
+    width: 100%;
+    max-width: 1366px;
+    height: 3268px;
+    max-height: 3268px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    justify-content: center;
+}
+
+.services-lp .judul {
+    width: 100%;
+    max-width: 1100px;
+    background-color: white;
+    margin: 10px auto 50px;
+}
+
+.services-lp .judul h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    border: 0;
+    border-color: black;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.services-lp .judul hr {
+    width: 100px;
+    margin: auto;
+}
+
+.services-lp .cont-services {
+    width: 100%;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, max-content);
+    justify-content: center;
+}
+
+.services-lp .cont-services .box {
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px auto 50px;
+}
+
+.services-lp .cont-services .box .gambar {
+    overflow: hidden;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.services-lp .cont-services .box:hover .gambar {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.services-lp .cont-services .box .detail {
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.services-lp .cont-services .box:hover .detail {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.services-lp .cont-services .box .detail h1 {
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    position: relative;
+    top: 52.5px;
+    left: 22px;
+}
+
+.services-lp .cont-services .box .detail p {
+    font-family: 'Piazzolla', serif;
+    font-size: 22px;
+    text-align: left;
+    position: relative;
+    top: 47.5px;
+    left: 8px;
+    padding: 15px;
+}
+
+.services-lp .cont-services .box .detail .btn-services {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 15px 56.5px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-family: 'Montserrat SemiBold', Sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 52.5px;
+    left: 22px;
+}
+
+.btn-services:hover {
+    opacity: 80%;
+    background: white;
+    color: black;
+}
+
+.services-lp .cont-services iframe {
+    margin: 0px auto 50px;
+}
+
+/* Services */
+
+/* Portofolio */
+.port-f {
+    width: 100%;
+    max-width: 1366px;
+    height: 958px;
+    max-height: 958px;
+    background-color: white;
+    margin: auto;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+}
+
+.port-f .judul {
+    width: 100%;
+    max-width: 1100px;
+    background-color: white;
+    margin: auto;
+}
+
+.port-f .judul h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    border: 0;
+    border-color: black;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.port-f .judul hr {
+    width: 100px;
+    margin: auto;
+}
+
+.port-f .container-3 {
+    width: 100%;
+    max-width: 1366px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-template-rows: max-content;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.port-f .container-3 .box .pict-port {
+    width: 430px;
+    height: 430px;
+    overflow: hidden;
+    position: relative;
+}
+
+.port-f .container-3 .box {
+    position: relative;
+}
+
+.port-f .container-3 .box .pict-port img {
+    max-width: 100%;
+    transition: 1s;
+}
+
+.port-f .container-3 .box:hover .pict-port img {
+    transform: scale(1.1);
+}
+
+/* Portofolio */
+
+/* Contact */
+.contact {
+    width: 100%;
+    max-width: 1366px;
+    height: 550px;
+    max-height: 720px;
+    grid-template-rows: max-content 1fr;
+}
+
+.contact .judul {
+    width: 100%;
+    max-width: 1100px;
+    margin: 50px auto 0;
+}
+
+.contact .judul h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.contact .judul hr {
+    width: 70px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+}
+
+.contact .container-4 {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, max-content);
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.contact .container-4 .profile {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.contact .container-4 .profile .card {
+    padding: 15px;
+}
+
+.contact .container-4 .profile .card .box {
+    padding: 30px;
+    margin: auto;
+}
+
+.contact .container-4 .profile .card .box i.fas {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.contact .container-4 .profile .card .box h3 {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact .container-4 .profile .card .box .keterangan {
+    color: black;
+    text-align: center;
+}
+
+.contact .container-4 .address {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+}
+
+.contact .container-4 .address .card {
+    padding: 10px;
+}
+
+.contact .container-4 .address .card .box {
+    padding: 10px;
+    margin: auto;
+}
+
+.contact .container-4 .address .card .box i.fas {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.contact .container-4 .address .card .box h3 {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact .container-4 .address .card .box .keterangan {
+    color: black;
+    text-align: center;
+}
+
+/* Contact */
+
+/* Copyright */
+
+.copyright {
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.copyright .cp-right {
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.copyright .cp-right .instagram .fab {
+    color: black;
+    font-size: 30px;
+}
+
+.copyright .cp-right .copyrightContent {
+    font-family: Sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-top: 5px;
+}
+
+.copyright .cp-right .copyrightContent i {
+    padding-right: 3px;
+}
+
+/* Copyright */
+
+/*Responsive*/
+
+@media(min-width: 768px) and (max-width: 1024px) {
+
+    /* Header */
+    header {
+        height: 620px;
+    }
+
+    .nav-lp {
+        height: 50px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .nav-lp h3 {
+        font-size: 14px;
+    }
+
+    .nav-lp span {
+        font-size: 14px;
+    }
+
+    .nav-lp a {
+        font-size: 14px;
+    }
+
+    .headline-lp {
+        width: 100%;
+        height: 570px;
+        background-image: url(../img/bg-home-fix.jpg);
+        background-size: 1024px;
+    }
+
+    .headline-lp img {
+        display: inline-block;
+        position: relative;
+        left: 120px;
+        bottom: 20px;
+    }
+
+    .headline-lp h1 {
+        bottom: 80px;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .headline-lp h3 {
+        bottom: 80px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        bottom: 80px;
+        padding: 12px 40px;
+        font-size: 12px;
+    }
+
+    /* Header */
+
+    /* Message */
+    .message-lp {
+        height: 200px;
+    }
+
+    .message-lp .m-box {
+        width: 80%;
+        max-width: 1100px;
+    }
+
+    .message-lp .m-box p {
+        font-size: 24px;
+        padding: 50px 0px;
+    }
+
+    /* Message */
+
+    /*Services*/
+    .services-lp .cont-services iframe {
+        width: 980px;
+        height: 550px;
+    }
+
+    /* Services */
+
+    /*Work*/
+    .port-f {
+        height: 1458px;
+        max-height: 1458px;
+    }
+
+    .port-f .judul {
+        background-color: white;
+        margin: auto;
+    }
+
+    .port-f .container-3 {
+        grid-template-columns: repeat(2, max-content);
+    }
+
+    .port-f .container-3 .box .pict-port {
+        width: 450px;
+        height: 450px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /*Work*/
+
+    /* Contact */
+    .contact {
+        height: 720px;
+        max-height: 720px;
+    }
+
+    .contact .container-4 .profile {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact .container-4 .address {
+        grid-template-columns: repeat(2, max-content);
+        grid-template-rows: repeat(2, max-content);
+    }
+
+    /*Contact*/
+}
+
+@media(min-width: 500px) and (max-width: 768px) {
+
+    /* Header */
+    header {
+        height: 480px;
+    }
+
+    .nav-lp {
+        height: 50px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .nav-lp h3 {
+        font-size: 14px;
+    }
+
+    .nav-lp span {
+        font-size: 14px;
+    }
+
+    .nav-lp a {
+        font-size: 14px;
+    }
+
+    .headline-lp {
+        height: 430px;
+        background-image: url(../img/bg-home-fix.jpg);
+        background-size: 768px;
+    }
+
+    .headline-lp img {
+        display: inline-block;
+        position: relative;
+        left: 120px;
+        bottom: 20px;
+    }
+
+    .headline-lp h1 {
+        bottom: 80px;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .headline-lp h3 {
+        bottom: 80px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        bottom: 80px;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    /* Header */
+
+    /* Message */
+    .message-lp {
+        height: 230px;
+    }
+
+    .message-lp .m-box {
+        width: 80%;
+        max-width: 1100px;
+    }
+
+    .message-lp .m-box p {
+        font-size: 24px;
+        padding: 50px 0px;
+    }
+
+    /* Message */
+
+    /* Promo Ortho */
+
+    .promo-ortho {
+        height: 1000px;
+        max-height: 1000px;
+    }
+
+    .promo-ortho .ortho .promo img {
+        width: 400px;
+        height: 900px;
+    }
+
+    .promo-ortho .ortho .edu img {
+        width: 286px;
+        height: 286px;
+    }
+
+    .promo-ortho .booking .btn-order {
+        padding: 10px 100px;
+    }
+
+    /* Promo Ortho */
+
+    /* Promo White */
+    .promo-white {
+        height: 1000px;
+        max-height: 1000px;
+    }
+
+    .promo-white .white .promo img {
+        width: 400px;
+        height: 900px;
+    }
+
+    .promo-white .white .edu img {
+        width: 286px;
+        height: 286px;
+    }
+
+    .promo-white .booking {
+        margin: auto;
+    }
+
+    .promo-white .booking .btn-order {
+        padding: 10px 100px;
+    }
+
+    /* Promo White */
+
+    /* Services */
+    .services-lp {
+        height: 2868px;
+        max-height: 2868px;
+    }
+
+    .services-lp .cont-services .box {
+        width: 700px;
+        height: 350px;
+    }
+
+    .services-lp .cont-services .box .gambar {
+        width: 350px;
+        height: 350px;
+    }
+
+    .services-lp .cont-services .box .detail h1 {
+        font-size: 20px;
+        top: 45px;
+        left: 22px;
+    }
+
+    .services-lp .cont-services .box .detail p {
+        font-size: 20px;
+        top: 40px;
+        left: 8px;
+    }
+
+    .services-lp .cont-services .box .detail .btn-services {
+        padding: 10px 50px;
+        font-size: 14px;
+        position: relative;
+        top: 45px;
+        left: 22px;
+    }
+
+    .services-lp .cont-services iframe {
+        width: 700px;
+        height: 450px;
+    }
+
+    /* Services */
+
+    /* Portofolio */
+    .port-f {
+        height: 1158px;
+        max-height: 1158px;
+    }
+
+    .port-f .judul {
+        background-color: white;
+        margin: auto;
+    }
+
+    .port-f .container-3 {
+        grid-template-columns: repeat(2, max-content);
+    }
+
+    .port-f .container-3 .box .pict-port {
+        width: 350px;
+        height: 350px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .port-f .container-3 .box {
+        position: relative;
+    }
+
+    .port-f .container-3 .box .pict-port img {
+        max-width: 100%;
+        transition: 1s;
+    }
+
+    .port-f .container-3 .box:hover .pict-port img {
+        transform: scale(1.1);
+    }
+
+    /* Portofolio */
+
+    /* Contact */
+    .contact {
+        height: 720px;
+        max-height: 720px;
+    }
+
+    .contact .container-4 .profile {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact .container-4 .address {
+        grid-template-columns: repeat(2, max-content);
+        grid-template-rows: repeat(2, max-content);
+    }
+
+    .contact .container-4 .address .card {
+        padding: 10px;
+    }
+
+    .contact .container-4 .address .card .box {
+        padding: 10px;
+        margin: auto;
+    }
+
+    .contact .container-4 .address .card .box i.fas {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .contact .container-4 .address .card .box h3 {
+        font-size: 24px;
+        text-align: center;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .contact .container-4 .address .card .box .keterangan {
+        color: black;
+        text-align: center;
+    }
+
+    /* Contact */
+}
+
+@media(min-width: 375px) and (max-width: 500px) {
+
+    /* Header */
+    header {
+        height: 280px;
+    }
+
+    .nav-lp {
+        height: 50px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .nav-lp h3 {
+        font-size: 10px;
+    }
+
+    .nav-lp span {
+        font-size: 10px;
+    }
+
+    .nav-lp a {
+        font-size: 10px;
+    }
+
+    .headline-lp {
+        height: 230px;
+        background-image: url(../img/bg-home-fix.jpg);
+        background-size: 414px;
+    }
+
+    .headline-lp img {
+        width: 130px;
+        height: 130px;
+        display: inline-block;
+        position: relative;
+        left: 60px;
+        bottom: 5px;
+    }
+
+    .headline-lp h1 {
+        bottom: 40px;
+        left: 10px;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .headline-lp h3 {
+        bottom: 40px;
+        left: 10px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        bottom: 40px;
+        left: 10px;
+        padding: 8px 12px;
+        font-size: 8px;
+    }
+
+    /* Header */
+
+    /* Message */
+    .message-lp {
+        height: 150px;
+        max-height: 150px;
+    }
+
+    .message-lp .m-box {
+        width: 80%;
+    }
+
+    .message-lp .m-box p {
+        font-size: 14px;
+        padding: 30px 0;
+    }
+
+    /* Message */
+
+    /* Promo Ortho */
+
+    .promo-ortho {
+        height: 1950px;
+        max-height: 1950px;
+    }
+
+    .promo-ortho .ortho {
+        display: grid;
+        grid-template-columns: max-content;
+        grid-row-gap: 20px;
+    }
+
+    .promo-ortho .ortho .promo img {
+        width: 350px;
+        height: 700px;
+    }
+
+    .promo-ortho .ortho .edu img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .promo-ortho .ortho .edu {
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    /* Promo Ortho */
+
+    /* Promo White */
+    .promo-white {
+        height: 1950px;
+        max-height: 1950px;
+    }
+
+    .promo-white .white {
+        display: grid;
+        grid-template-columns: max-content;
+        grid-row-gap: 20px;
+    }
+
+    .promo-white .white .promo img {
+        width: 350px;
+        height: 700px;
+    }
+
+    .promo-white .white .edu {
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .promo-white .white .edu img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .promo-white .booking .btn-order {
+        padding: 10px 100px;
+    }
+
+    /* Promo White */
+
+    /* Services */
+    .services-lp {
+        height: 3268px;
+        max-height: 3268px;
+    }
+
+    .services-lp .cont-services .box {
+        width: 350px;
+        height: 700px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .services-lp .cont-services .box .gambar {
+        width: 350px;
+        height: 350px;
+    }
+
+    .services-lp .cont-services .box .detail h1 {
+        font-size: 20px;
+        text-align: center;
+        left: 0;
+    }
+
+    .services-lp .cont-services .box .detail p {
+        font-family: 'Piazzolla', serif;
+        font-size: 20px;
+        text-align: center;
+        left: 0;
+    }
+
+    .services-lp .cont-services .box .detail .btn-services {
+        padding: 7px 30px;
+        border-radius: 5px;
+        font-size: 14px;
+        left: 85px;
+    }
+
+    .services-lp .cont-services iframe {
+        width: 350px;
+        height: 250px;
+    }
+
+    /* Portofolio */
+    .port-f {
+        height: 2258px;
+        max-height: 2258px;
+    }
+
+    .port-f .container-3 {
+        grid-template-columns: max-content;
+    }
+
+    /* Portofolio */
+
+    /* Contact */
+    .contact {
+        height: 1280px;
+        max-height: 1280px;
+    }
+
+    .contact .container-4 .profile {
+        grid-template-columns: 1fr;
+    }
+
+    .contact .container-4 .address {
+        grid-template-columns: max-content;
+        grid-template-rows: repeat(4, max-content);
+    }
+
+    .copyright {
+        height: 70px;
+    }
+
+    .copyright .cp-right .copyrightContent {
+        font-size: 13px;
+    }
+}
