@@ -257,6 +257,7 @@ header {
     display: grid;
     grid-template-rows: max-content 1fr;
     justify-content: center;
+    margin: auto;
 }
 
 .services-lp .judul {
@@ -446,9 +447,10 @@ header {
 .contact {
     width: 100%;
     max-width: 1366px;
-    height: 550px;
-    max-height: 720px;
+    height: 480px;
+    max-height: 480px;
     grid-template-rows: max-content 1fr;
+    margin: auto;
 }
 
 .contact .judul {
@@ -973,7 +975,7 @@ header {
     /* Contact */
 }
 
-@media(min-width: 375px) and (max-width: 500px) {
+@media (max-width: 500px) {
 
     /* Header */
     header {
@@ -999,6 +1001,7 @@ header {
     }
 
     .headline-lp {
+        width: auto;
         height: 230px;
         background-image: url(../img/bg-home-fix.jpg);
         background-size: 414px;
@@ -1063,7 +1066,7 @@ header {
     .promo-ortho .ortho {
         display: grid;
         grid-template-columns: max-content;
-        grid-row-gap: 20px;
+        row-gap: 20px;
     }
 
     .promo-ortho .ortho .promo img {
@@ -1081,6 +1084,10 @@ header {
         row-gap: 20px;
     }
 
+    .promo-ortho .booking .btn-order {
+        padding: 10px 100px;
+    }
+
     /* Promo Ortho */
 
     /* Promo White */
@@ -1092,7 +1099,7 @@ header {
     .promo-white .white {
         display: grid;
         grid-template-columns: max-content;
-        grid-row-gap: 20px;
+        row-gap: 20px;
     }
 
     .promo-white .white .promo img {
@@ -1151,7 +1158,7 @@ header {
         padding: 7px 30px;
         border-radius: 5px;
         font-size: 14px;
-        left: 85px;
+        left: 90px;
     }
 
     .services-lp .cont-services iframe {
@@ -1167,6 +1174,11 @@ header {
 
     .port-f .container-3 {
         grid-template-columns: max-content;
+    }
+
+    .port-f .container-3 .box .pict-port {
+        width: 350px;
+        height: 350px;
     }
 
     /* Portofolio */
