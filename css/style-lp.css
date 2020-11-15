@@ -36,20 +36,20 @@ header {
 
 .nav-lp h3 {
     font-family: 'Montserrat Thin', Sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     color: black;
     padding: 0 10px;
 }
 
 .nav-lp span {
     font-family: 'Montserrat SemiBold', Sans-serif;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .nav-lp a {
     color: black;
     font-family: 'Montserrat', Sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -106,7 +106,7 @@ header {
     background: black;
     color: white;
     font-family: 'Montserrat SemiBold', Sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .btn:hover {
@@ -251,8 +251,8 @@ header {
 .services-lp {
     width: 100%;
     max-width: 1366px;
-    height: 3268px;
-    max-height: 3268px;
+    height: 4368px;
+    max-height: 4368px;
     background-color: white;
     display: grid;
     grid-template-rows: max-content 1fr;
@@ -353,7 +353,7 @@ header {
     background: black;
     color: white;
     font-family: 'Montserrat SemiBold', Sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
     top: 52.5px;
     left: 22px;
@@ -675,6 +675,7 @@ header {
     /* Message */
 
     /*Services*/
+
     .services-lp .cont-services iframe {
         width: 980px;
         height: 550px;
@@ -798,6 +799,11 @@ header {
     }
 
     /* Message */
+
+    .services-lp {
+        height: 4368px;
+        max-height: 4368px;
+    }
 
     /* Promo Ortho */
 
@@ -1056,6 +1062,11 @@ header {
 
     /* Message */
 
+    .services-lp {
+        height: 4368px;
+        max-height: 4368px;
+    }
+
     /* Promo Ortho */
 
     .promo-ortho {
@@ -1125,8 +1136,8 @@ header {
 
     /* Services */
     .services-lp {
-        height: 3268px;
-        max-height: 3268px;
+        height: 4368px;
+        max-height: 4368px;
     }
 
     .services-lp .cont-services .box {
