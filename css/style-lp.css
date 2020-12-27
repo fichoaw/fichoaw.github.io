@@ -1145,11 +1145,20 @@ header {
         height: 700px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            'gambar'
+            'detail'
+        ;
     }
 
     .services-lp .cont-services .box .gambar {
         width: 350px;
         height: 350px;
+        grid-area: gambar;
+    }
+
+    .services-lp .cont-services .box .detail {
+        grid-area: detail;
     }
 
     .services-lp .cont-services .box .detail h1 {
