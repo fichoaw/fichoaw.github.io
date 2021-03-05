@@ -246,6 +246,54 @@ header {
 }
 
 /* Promo White */
+/* Promo Kids */
+.promo-kids {
+    width: 100%;
+    max-width: 1366px;
+    height: 650px;
+    max-height: 1268px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(2, max-content 1fr);
+    justify-content: center;
+    margin: auto;
+}
+
+.promo-kids .kids {
+    display: grid;
+    grid-template-columns: repeat(3, max content);
+    margin-bottom: 10px;
+}
+
+.promo-kids .kids .edu {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 20px;
+}
+
+.promo-kids .booking {
+    margin: auto;
+}
+
+.promo-kids .booking .btn-order {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 15px 150px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-family: 'Montserrat SemiBold', Sans-serif;
+    font-size: 16px;
+}
+
+.btn-order:hover {
+    opacity: 80%;
+    background: white;
+    color: black;
+}
+/* Promo Kids */
 
 /* Services */
 .services-lp {
