@@ -1182,6 +1182,32 @@ header {
 
     /* Promo White */
 
+    .promo-kids {
+        height: 1268px;
+        max-height: 1268px;
+    }
+    
+    .promo-kids .kids {
+        display: grid;
+        grid-template-columns: max content;
+        margin-bottom: 10px;
+    }
+    
+    .promo-kids .kids .edu {
+        display: grid;
+        grid-template-columns: max-content;
+        row-gap: 30px;
+    }
+    
+    .promo-kids .booking {
+        margin: auto;
+    }
+    
+    .promo-kids .booking .btn-order {
+        padding: 10px 100px;
+    }
+    /* Promo Kids */
+
     /* Services */
     .services-lp {
         height: 4368px;
